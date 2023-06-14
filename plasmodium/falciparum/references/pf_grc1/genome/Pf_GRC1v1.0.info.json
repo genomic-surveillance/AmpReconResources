@@ -1,0 +1,1 @@
+{"filters":{"LowDepth":"FORMAT/DP<8","LowQual":"%QUAL<15 || MQ<20"}}
