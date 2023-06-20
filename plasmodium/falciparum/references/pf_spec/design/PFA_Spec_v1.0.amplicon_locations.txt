@@ -1,0 +1,4 @@
+Spec_1_falciparum:1-227,Spec_1_falciparum
+Spec_2_falciparum:1-256,Spec_2_falciparum
+Spec_1_vivax:1-230,Spec_1_vivax
+Spec_2_vivax:1-256,Spec_2_vivax

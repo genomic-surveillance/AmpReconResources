@@ -1,0 +1,956 @@
+{
+    "grc_kelch13": {
+        "minimum_kelch13_WT_coverage": 0.95,
+        "kelch13_regions": {
+            "Pf3D7_13_v3": {
+                "Start": "1724937",
+                "End": "1725955"
+            }
+        }
+    },
+    "grc_plasmepsin": {
+        "plasmepsin_loci": [
+            {
+                "Position": "Pf3D7_14_v3:289595",
+                "Genotypes": [
+                    "C,T",
+                    "T"
+                ],
+                "Variant": "Copy"
+            },
+            {
+                "Position": "Pf3D7_14_v3:289601",
+                "Genotypes": [
+                    "C,T",
+                    "T"
+                ],
+                "Variant": "Copy"
+            },
+            {
+                "Position": "Pf3D7_14_v3:289603",
+                "Genotypes": [
+                    "T,A",
+                    "A"
+                ],
+                "Variant": "Copy"
+            },
+            {
+                "Position": "Pf3D7_14_v3:289610",
+                "Genotypes": [
+                    "T,C",
+                    "C"
+                ],
+                "Variant": "Copy"
+            }
+        ]
+    },
+    "grc_amino_acid_caller" : {
+
+	"DR_DOUBLE_HETEROZYGOUS_CASES" : {
+
+		"PfCRT" : [
+					["75", ["A,G", "A", "T,A"], "N", "E"]	
+		],
+		"PfDHPS" : [ ["436", ["T,G", "C,G", "T"], "A", "C"],
+		 			 ["436", ["T,G", "C,T", "T"], "A", "F"],
+		 			 ["436", ["T,G", "C,A", "T"], "A", "Y"],
+		 			 ["436", ["C,G", "C,A", "T"], "A", "H"],
+		 			 ["540", ["A,G", "A", "A,T"], "E", "N"],
+		 			 ["540", ["A,T", "A", "A,T"], "K", "N"] 
+		]
+	},
+
+	"DR_HAPLOTYPE_SPECIAL_CASES" : {
+
+		"PfCRT" : { "73" : "V"}
+
+	}
+    },
+    "grc_speciation": {
+        "min_maf": 0.01,
+        "match_threshold": 0.95,
+        "default_species": "Pf",
+        "default_species_barcode_coverage": 51,
+        "d_species_convert": {
+            "falciparum": "Pf",
+            "vivax": "Pv"
+        },
+        "species_order": ["Pf", "Pk", "Pv", "Po", "Pm"],
+        "species_ref": {
+            "F23": {
+                "Pf": "T",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "T",
+                "Pm": "T"
+            },
+            "F60": {
+                "Pf": "A",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "A",
+                "Pm": "T"
+            },
+            "F61": {
+                "Pf": "A",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "A",
+                "Pm": "T"
+            },
+            "F81": {
+                "Pf": "A",
+                "Pk": "G",
+                "Pv": "A",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F82": {
+                "Pf": "T",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F83": {
+                "Pf": "A",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "T",
+                "Pm": "A"
+            },
+            "F109": {
+                "Pf": "T",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "T",
+                "Pm": "A"
+            },
+            "F113": {
+                "Pf": "T",
+                "Pk": "C",
+                "Pv": "C",
+                "Po": "C",
+                "Pm": "C"
+            },
+            "F119": {
+                "Pf": "A",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "T",
+                "Pm": "A"
+            },
+            "F120": {
+                "Pf": "C",
+                "Pk": "T",
+                "Pv": "T",
+                "Po": "T",
+                "Pm": "T"
+            },
+            "F142": {
+                "Pf": "T",
+                "Pk": "T",
+                "Pv": "A",
+                "Po": "T",
+                "Pm": "T"
+            },
+            "F146": {
+                "Pf": "A",
+                "Pk": "A",
+                "Pv": "G",
+                "Po": "G",
+                "Pm": "G"
+            },
+            "F147": {
+                "Pf": "G",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F152": {
+                "Pf": "A",
+                "Pk": "T",
+                "Pv": "G",
+                "Po": "G",
+                "Pm": "G"
+            },
+            "F153": {
+                "Pf": "C",
+                "Pk": "T",
+                "Pv": "C",
+                "Po": "C",
+                "Pm": "C"
+            },
+            "F154": {
+                "Pf": "G",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F182": {
+                "Pf": "A",
+                "Pk": "T",
+                "Pv": "T",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F188": {
+                "Pf": "A",
+                "Pk": "T",
+                "Pv": "C",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F194": {
+                "Pf": "G",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F197": {
+                "Pf": "A",
+                "Pk": "T",
+                "Pv": "T",
+                "Po": "T",
+                "Pm": "T"
+            },
+            "F199": {
+                "Pf": "G",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F276": {
+                "Pf": "T",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F277": {
+                "Pf": "A",
+                "Pk": "T",
+                "Pv": "T",
+                "Po": "T",
+                "Pm": "T"
+            },
+            "F279": {
+                "Pf": "C",
+                "Pk": "T",
+                "Pv": "T",
+                "Po": "T",
+                "Pm": "T"
+            },
+            "F281": {
+                "Pf": "A",
+                "Pk": "T",
+                "Pv": "T",
+                "Po": "T",
+                "Pm": "T"
+            },
+            "F282": {
+                "Pf": "T",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F283": {
+                "Pf": "A",
+                "Pk": "T",
+                "Pv": "T",
+                "Po": "T",
+                "Pm": "T"
+            },
+            "F284": {
+                "Pf": "T",
+                "Pk": "C",
+                "Pv": "T",
+                "Po": "T",
+                "Pm": "A"
+            },
+            "F285": {
+                "Pf": "A",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "T",
+                "Pm": "T"
+            },
+            "F287": {
+                "Pf": "T",
+                "Pk": "T",
+                "Pv": "T",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F289": {
+                "Pf": "G",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F291": {
+                "Pf": "G",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F294": {
+                "Pf": "T",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "G",
+                "Pm": "A"
+            },
+            "F345": {
+                "Pf": "T",
+                "Pk": "T",
+                "Pv": "A",
+                "Po": "T",
+                "Pm": "T"
+            },
+            "F347": {
+                "Pf": "A",
+                "Pk": "T",
+                "Pv": "A",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F348": {
+                "Pf": "T",
+                "Pk": "C",
+                "Pv": "T",
+                "Po": "T",
+                "Pm": "T"
+            },
+            "F349": {
+                "Pf": "T",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F355": {
+                "Pf": "C",
+                "Pk": "T",
+                "Pv": "T",
+                "Po": "T",
+                "Pm": "T"
+            },
+            "F358": {
+                "Pf": "T",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F359": {
+                "Pf": "T",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F361": {
+                "Pf": "A",
+                "Pk": "C",
+                "Pv": "T",
+                "Po": "C",
+                "Pm": "T"
+            },
+            "F362": {
+                "Pf": "C",
+                "Pk": "T",
+                "Pv": "G",
+                "Po": "G",
+                "Pm": "G"
+            },
+            "F363": {
+                "Pf": "G",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F368": {
+                "Pf": "G",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "A",
+                "Pm": "A"
+            },
+            "F384": {
+                "Pf": "G",
+                "Pk": "T",
+                "Pv": "T",
+                "Po": "T",
+                "Pm": "T"
+            },
+            "F386": {
+                "Pf": "T",
+                "Pk": "C",
+                "Pv": "C",
+                "Po": "C",
+                "Pm": "C"
+            },
+            "F398": {
+                "Pf": "T",
+                "Pk": "A",
+                "Pv": "T",
+                "Po": "T",
+                "Pm": "T"
+            },
+            "F406": {
+                "Pf": "G",
+                "Pk": "A",
+                "Pv": "G",
+                "Po": "G",
+                "Pm": "G"
+            },
+            "F430": {
+                "Pf": "A",
+                "Pk": "T",
+                "Pv": "T",
+                "Po": "T",
+                "Pm": "T"
+            },
+            "F460": {
+                "Pf": "C",
+                "Pk": "C",
+                "Pv": "C",
+                "Po": "C",
+                "Pm": "T"
+            },
+            "F461": {
+                "Pf": "C",
+                "Pk": "T",
+                "Pv": "T",
+                "Po": "T",
+                "Pm": "T"
+            },
+            "F465": {
+                "Pf": "T",
+                "Pk": "A",
+                "Pv": "A",
+                "Po": "T",
+                "Pm": "A"
+            }
+        },
+        "chrom_regex": "^Spec_[12]_(falciparum|vivax)$"
+    },
+    "grc_barcoding": {
+        "barcode_ref": {
+            "001": {
+                "Chromosome": "Pf3D7_02_v3",
+                "Locus": 376222,
+                "RefAllele": "A"
+            },
+            "002": {
+                "Chromosome": "Pf3D7_02_v3",
+                "Locus": 470013,
+                "RefAllele": "G"
+            },
+            "003": {
+                "Chromosome": "Pf3D7_03_v3",
+                "Locus": 656861,
+                "RefAllele": "T"
+            },
+            "004": {
+                "Chromosome": "Pf3D7_04_v3",
+                "Locus": 110442,
+                "RefAllele": "C"
+            },
+            "005": {
+                "Chromosome": "Pf3D7_04_v3",
+                "Locus": 881571,
+                "RefAllele": "A"
+            },
+            "006": {
+                "Chromosome": "Pf3D7_05_v3",
+                "Locus": 350933,
+                "RefAllele": "G"
+            },
+            "007": {
+                "Chromosome": "Pf3D7_05_v3",
+                "Locus": 369740,
+                "RefAllele": "T"
+            },
+            "008": {
+                "Chromosome": "Pf3D7_06_v3",
+                "Locus": 900278,
+                "RefAllele": "G"
+            },
+            "009": {
+                "Chromosome": "Pf3D7_07_v3",
+                "Locus": 1044052,
+                "RefAllele": "T"
+            },
+            "010": {
+                "Chromosome": "Pf3D7_08_v3",
+                "Locus": 1314831,
+                "RefAllele": "G"
+            },
+            "011": {
+                "Chromosome": "Pf3D7_08_v3",
+                "Locus": 413067,
+                "RefAllele": "A"
+            },
+            "012": {
+                "Chromosome": "Pf3D7_09_v3",
+                "Locus": 900277,
+                "RefAllele": "A"
+            },
+            "013": {
+                "Chromosome": "Pf3D7_11_v3",
+                "Locus": 1018899,
+                "RefAllele": "T"
+            },
+            "014": {
+                "Chromosome": "Pf3D7_11_v3",
+                "Locus": 1815412,
+                "RefAllele": "C"
+            },
+            "015": {
+                "Chromosome": "Pf3D7_13_v3",
+                "Locus": 1056452,
+                "RefAllele": "T"
+            },
+            "016": {
+                "Chromosome": "Pf3D7_13_v3",
+                "Locus": 1466422,
+                "RefAllele": "G"
+            },
+            "017": {
+                "Chromosome": "Pf3D7_14_v3",
+                "Locus": 137622,
+                "RefAllele": "T"
+            },
+            "018": {
+                "Chromosome": "Pf3D7_14_v3",
+                "Locus": 2164225,
+                "RefAllele": "A"
+            },
+            "019": {
+                "Chromosome": "Pf3D7_01_v3",
+                "Locus": 145515,
+                "RefAllele": "T"
+            },
+            "020": {
+                "Chromosome": "Pf3D7_03_v3",
+                "Locus": 548178,
+                "RefAllele": "C"
+            },
+            "021": {
+                "Chromosome": "Pf3D7_04_v3",
+                "Locus": 1102392,
+                "RefAllele": "A"
+            },
+            "022": {
+                "Chromosome": "Pf3D7_04_v3",
+                "Locus": 139051,
+                "RefAllele": "G"
+            },
+            "023": {
+                "Chromosome": "Pf3D7_04_v3",
+                "Locus": 286542,
+                "RefAllele": "G"
+            },
+            "024": {
+                "Chromosome": "Pf3D7_04_v3",
+                "Locus": 529500,
+                "RefAllele": "G"
+            },
+            "025": {
+                "Chromosome": "Pf3D7_05_v3",
+                "Locus": 796714,
+                "RefAllele": "A"
+            },
+            "026": {
+                "Chromosome": "Pf3D7_07_v3",
+                "Locus": 1256331,
+                "RefAllele": "C"
+            },
+            "027": {
+                "Chromosome": "Pf3D7_07_v3",
+                "Locus": 461139,
+                "RefAllele": "G"
+            },
+            "028": {
+                "Chromosome": "Pf3D7_07_v3",
+                "Locus": 619957,
+                "RefAllele": "G"
+            },
+            "029": {
+                "Chromosome": "Pf3D7_08_v3",
+                "Locus": 417335,
+                "RefAllele": "C"
+            },
+            "030": {
+                "Chromosome": "Pf3D7_09_v3",
+                "Locus": 163977,
+                "RefAllele": "C"
+            },
+            "031": {
+                "Chromosome": "Pf3D7_10_v3",
+                "Locus": 317581,
+                "RefAllele": "A"
+            },
+            "032": {
+                "Chromosome": "Pf3D7_10_v3",
+                "Locus": 336274,
+                "RefAllele": "A"
+            },
+            "033": {
+                "Chromosome": "Pf3D7_11_v3",
+                "Locus": 1020397,
+                "RefAllele": "C"
+            },
+            "034": {
+                "Chromosome": "Pf3D7_11_v3",
+                "Locus": 1294107,
+                "RefAllele": "C"
+            },
+            "035": {
+                "Chromosome": "Pf3D7_11_v3",
+                "Locus": 1935227,
+                "RefAllele": "T"
+            },
+            "036": {
+                "Chromosome": "Pf3D7_11_v3",
+                "Locus": 477922,
+                "RefAllele": "C"
+            },
+            "037": {
+                "Chromosome": "Pf3D7_12_v3",
+                "Locus": 1663492,
+                "RefAllele": "A"
+            },
+            "038": {
+                "Chromosome": "Pf3D7_12_v3",
+                "Locus": 2171901,
+                "RefAllele": "T"
+            },
+            "039": {
+                "Chromosome": "Pf3D7_13_v3",
+                "Locus": 1233218,
+                "RefAllele": "T"
+            },
+            "040": {
+                "Chromosome": "Pf3D7_13_v3",
+                "Locus": 1867630,
+                "RefAllele": "G"
+            },
+            "041": {
+                "Chromosome": "Pf3D7_13_v3",
+                "Locus": 2377887,
+                "RefAllele": "C"
+            },
+            "042": {
+                "Chromosome": "Pf3D7_14_v3",
+                "Locus": 2355751,
+                "RefAllele": "T"
+            },
+            "043": {
+                "Chromosome": "Pf3D7_14_v3",
+                "Locus": 3046108,
+                "RefAllele": "C"
+            },
+            "044": {
+                "Chromosome": "Pf3D7_02_v3",
+                "Locus": 529709,
+                "RefAllele": "T"
+            },
+            "045": {
+                "Chromosome": "Pf3D7_02_v3",
+                "Locus": 714480,
+                "RefAllele": "T"
+            },
+            "046": {
+                "Chromosome": "Pf3D7_03_v3",
+                "Locus": 155697,
+                "RefAllele": "A"
+            },
+            "047": {
+                "Chromosome": "Pf3D7_04_v3",
+                "Locus": 1037656,
+                "RefAllele": "A"
+            },
+            "048": {
+                "Chromosome": "Pf3D7_04_v3",
+                "Locus": 648101,
+                "RefAllele": "G"
+            },
+            "049": {
+                "Chromosome": "Pf3D7_05_v3",
+                "Locus": 1204155,
+                "RefAllele": "A"
+            },
+            "050": {
+                "Chromosome": "Pf3D7_06_v3",
+                "Locus": 1282691,
+                "RefAllele": "G"
+            },
+            "051": {
+                "Chromosome": "Pf3D7_06_v3",
+                "Locus": 1289212,
+                "RefAllele": "A"
+            },
+            "052": {
+                "Chromosome": "Pf3D7_07_v3",
+                "Locus": 1066698,
+                "RefAllele": "G"
+            },
+            "053": {
+                "Chromosome": "Pf3D7_07_v3",
+                "Locus": 1213486,
+                "RefAllele": "G"
+            },
+            "054": {
+                "Chromosome": "Pf3D7_07_v3",
+                "Locus": 704373,
+                "RefAllele": "A"
+            },
+            "055": {
+                "Chromosome": "Pf3D7_08_v3",
+                "Locus": 1313202,
+                "RefAllele": "T"
+            },
+            "056": {
+                "Chromosome": "Pf3D7_08_v3",
+                "Locus": 339406,
+                "RefAllele": "A"
+            },
+            "057": {
+                "Chromosome": "Pf3D7_08_v3",
+                "Locus": 701557,
+                "RefAllele": "T"
+            },
+            "058": {
+                "Chromosome": "Pf3D7_09_v3",
+                "Locus": 452690,
+                "RefAllele": "A"
+            },
+            "059": {
+                "Chromosome": "Pf3D7_09_v3",
+                "Locus": 599655,
+                "RefAllele": "G"
+            },
+            "060": {
+                "Chromosome": "Pf3D7_10_v3",
+                "Locus": 1383789,
+                "RefAllele": "A"
+            },
+            "061": {
+                "Chromosome": "Pf3D7_10_v3",
+                "Locus": 1385894,
+                "RefAllele": "C"
+            },
+            "062": {
+                "Chromosome": "Pf3D7_11_v3",
+                "Locus": 1006911,
+                "RefAllele": "A"
+            },
+            "063": {
+                "Chromosome": "Pf3D7_11_v3",
+                "Locus": 1295068,
+                "RefAllele": "G"
+            },
+            "064": {
+                "Chromosome": "Pf3D7_11_v3",
+                "Locus": 1802201,
+                "RefAllele": "G"
+            },
+            "065": {
+                "Chromosome": "Pf3D7_12_v3",
+                "Locus": 1667593,
+                "RefAllele": "T"
+            },
+            "066": {
+                "Chromosome": "Pf3D7_12_v3",
+                "Locus": 1934745,
+                "RefAllele": "G"
+            },
+            "067": {
+                "Chromosome": "Pf3D7_12_v3",
+                "Locus": 858501,
+                "RefAllele": "C"
+            },
+            "068": {
+                "Chromosome": "Pf3D7_13_v3",
+                "Locus": 1419519,
+                "RefAllele": "T"
+            },
+            "069": {
+                "Chromosome": "Pf3D7_13_v3",
+                "Locus": 159086,
+                "RefAllele": "A"
+            },
+            "070": {
+                "Chromosome": "Pf3D7_13_v3",
+                "Locus": 2161975,
+                "RefAllele": "T"
+            },
+            "071": {
+                "Chromosome": "Pf3D7_13_v3",
+                "Locus": 2573828,
+                "RefAllele": "A"
+            },
+            "072": {
+                "Chromosome": "Pf3D7_13_v3",
+                "Locus": 388365,
+                "RefAllele": "A"
+            },
+            "073": {
+                "Chromosome": "Pf3D7_14_v3",
+                "Locus": 2625887,
+                "RefAllele": "C"
+            },
+            "074": {
+                "Chromosome": "Pf3D7_14_v3",
+                "Locus": 3126219,
+                "RefAllele": "C"
+            },
+            "075": {
+                "Chromosome": "Pf3D7_14_v3",
+                "Locus": 438592,
+                "RefAllele": "A"
+            },
+            "076": {
+                "Chromosome": "Pf3D7_01_v3",
+                "Locus": 179347,
+                "RefAllele": "A"
+            },
+            "077": {
+                "Chromosome": "Pf3D7_01_v3",
+                "Locus": 180554,
+                "RefAllele": "G"
+            },
+            "078": {
+                "Chromosome": "Pf3D7_01_v3",
+                "Locus": 283144,
+                "RefAllele": "C"
+            },
+            "079": {
+                "Chromosome": "Pf3D7_01_v3",
+                "Locus": 535211,
+                "RefAllele": "C"
+            },
+            "080": {
+                "Chromosome": "Pf3D7_02_v3",
+                "Locus": 839620,
+                "RefAllele": "T"
+            },
+            "081": {
+                "Chromosome": "Pf3D7_04_v3",
+                "Locus": 426436,
+                "RefAllele": "A"
+            },
+            "082": {
+                "Chromosome": "Pf3D7_04_v3",
+                "Locus": 531138,
+                "RefAllele": "G"
+            },
+            "083": {
+                "Chromosome": "Pf3D7_04_v3",
+                "Locus": 891732,
+                "RefAllele": "A"
+            },
+            "084": {
+                "Chromosome": "Pf3D7_05_v3",
+                "Locus": 172801,
+                "RefAllele": "G"
+            },
+            "085": {
+                "Chromosome": "Pf3D7_06_v3",
+                "Locus": 574938,
+                "RefAllele": "A"
+            },
+            "086": {
+                "Chromosome": "Pf3D7_07_v3",
+                "Locus": 1308383,
+                "RefAllele": "C"
+            },
+            "087": {
+                "Chromosome": "Pf3D7_07_v3",
+                "Locus": 1358910,
+                "RefAllele": "A"
+            },
+            "088": {
+                "Chromosome": "Pf3D7_07_v3",
+                "Locus": 1359218,
+                "RefAllele": "A"
+            },
+            "089": {
+                "Chromosome": "Pf3D7_07_v3",
+                "Locus": 635985,
+                "RefAllele": "T"
+            },
+            "090": {
+                "Chromosome": "Pf3D7_08_v3",
+                "Locus": 1056829,
+                "RefAllele": "C"
+            },
+            "091": {
+                "Chromosome": "Pf3D7_08_v3",
+                "Locus": 150033,
+                "RefAllele": "T"
+            },
+            "092": {
+                "Chromosome": "Pf3D7_08_v3",
+                "Locus": 399774,
+                "RefAllele": "C"
+            },
+            "093": {
+                "Chromosome": "Pf3D7_09_v3",
+                "Locus": 1379145,
+                "RefAllele": "G"
+            },
+            "094": {
+                "Chromosome": "Pf3D7_10_v3",
+                "Locus": 1386850,
+                "RefAllele": "C"
+            },
+            "095": {
+                "Chromosome": "Pf3D7_11_v3",
+                "Locus": 1935031,
+                "RefAllele": "T"
+            },
+            "096": {
+                "Chromosome": "Pf3D7_11_v3",
+                "Locus": 408668,
+                "RefAllele": "T"
+            },
+            "097": {
+                "Chromosome": "Pf3D7_11_v3",
+                "Locus": 828596,
+                "RefAllele": "T"
+            },
+            "098": {
+                "Chromosome": "Pf3D7_12_v3",
+                "Locus": 857245,
+                "RefAllele": "A"
+            },
+            "099": {
+                "Chromosome": "Pf3D7_14_v3",
+                "Locus": 107014,
+                "RefAllele": "G"
+            },
+            "100": {
+                "Chromosome": "Pf3D7_14_v3",
+                "Locus": 1757603,
+                "RefAllele": "A"
+            },
+            "101": {
+                "Chromosome": "Pf3D7_14_v3",
+                "Locus": 2733656,
+                "RefAllele": "C"
+            }
+        }
+    }
+}

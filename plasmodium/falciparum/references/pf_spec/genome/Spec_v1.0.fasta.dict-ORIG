@@ -1,0 +1,5 @@
+@HD	VN:1.0	SO:unsorted
+@SQ	SN:Spec_1_falciparum	LN:227	UR:file:/Users/kp11/workspace/applications/aspis-pipeline/Stage1-Pipeline/references/spec/Spec_v1.0.fasta	AS:v2	M5:1a8df1fe6431c7c8f63a0c0faf0ff9ab	SP:PFA Spec
+@SQ	SN:Spec_2_falciparum	LN:256	UR:file:/Users/kp11/workspace/applications/aspis-pipeline/Stage1-Pipeline/references/spec/Spec_v1.0.fasta	AS:v2	M5:4d9791e86f884a5e3b6ff8c495527519	SP:PFA Spec
+@SQ	SN:Spec_1_vivax	LN:230	UR:file:/Users/kp11/workspace/applications/aspis-pipeline/Stage1-Pipeline/references/spec/Spec_v1.0.fasta	AS:v2	M5:62976d7be4ebffa368f8d9d3f6bd8d60	SP:PFA Spec
+@SQ	SN:Spec_2_vivax	LN:256	UR:file:/Users/kp11/workspace/applications/aspis-pipeline/Stage1-Pipeline/references/spec/Spec_v1.0.fasta	AS:v2	M5:4c85daa3e24f4235b031cae94e26e0cc	SP:PFA Spec
