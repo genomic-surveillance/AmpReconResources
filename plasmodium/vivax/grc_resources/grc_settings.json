@@ -1,6 +1,27 @@
-{"grc_amino_acid_caller":
-    {"DR_DOUBLE_HETEROZYGOUS_CASES": {}, 
-     "DR_HAPLOTYPE_SPECIAL_CASES": {}},
+"grc_amino_acid_caller":
+    {"DR_DOUBLE_HETEROZYGOUS_CASES": {
+
+    "PvDHPS" : [
+        ["382", ["T,G", "C", "C,G"], "S", "A"],
+
+    ],
+
+    "PvDHFR" : [[
+
+        ["58", ["A,C", "G", "G,A"] "R", "R"],
+        ["58", ["C", "G,A", "G,A"], "R", "L"],
+
+    ]]
+
+    
+        }
+
+    
+ 
+    "DR_HAPLOTYPE_SPECIAL_CASES": {}
+
+},
+
  "grc_speciation": 
     {"min_maf": 0.01, "match_threshold": 0.95, "default_species": "Pf", 
     "default_species_barcode_coverage": 51, 
