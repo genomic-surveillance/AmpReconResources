@@ -1,25 +1,20 @@
-{ "grc_amino_acid_caller":
-    {
-        "DR_DOUBLE_HETEROZYGOUS_CASES": {
+{"grc_amino_acid_caller":
+    { "DR_DOUBLE_HETEROZYGOUS_CASES": {
+	    "PvDHPS" : [ ["382", ["T,G", "C", "C,G"], "S", "A"] ],
 
-    "PvDHPS" : [ ["382", ["T,G", "C", "C,G"], "S", "A"] ],
+    	     "PvDHFR" : [  [ "58", ["A,C", "G", "G,A"], "R", "R"],
+                           ["58", ["C", "G,A", "G,A"], "R", "L"]
 
-    "PvDHFR" : [  [ "58", ["A,C", "G", "G,A"], "R", "R"],
-                  ["58", ["C", "G,A", "G,A"], "R", "L"]
+    ]},
 
-    ]
-        },
-
-    "DR_HAPLOTYPE_SPECIAL_CASES": {}
-
-},
-
- "grc_speciation": 
-    {"min_maf": 0.01, "match_threshold": 0.95, "default_species": "Pf", 
-    "default_species_barcode_coverage": 51, 
+     "DR_HAPLOTYPE_SPECIAL_CASES" : {}
+    },
+ "grc_speciation":
+    {"min_maf": 0.01, "match_threshold": 0.95, "default_species": "Pf",
+    "default_species_barcode_coverage": 51,
     "d_species_convert": {"falciparum": "Pf", "vivax": "Pv"},
     "species_order": ["Pf", "Pk", "Pv", "Po", "Pm"],
-    "species_ref": 
+    "species_ref":
         {"F23": {"Pf": "T", "Pk": "A", "Pv": "A", "Po": "T", "Pm": "T"},
         "F60": {"Pf": "A", "Pk": "A", "Pv": "A", "Po": "A", "Pm": "T"},
         "F61": {"Pf": "A", "Pk": "A", "Pv": "A", "Po": "A", "Pm": "T"},
@@ -38,7 +33,7 @@
         "F154": {"Pf": "G", "Pk": "A", "Pv": "A", "Po": "A", "Pm": "A"},
         "F182": {"Pf": "A", "Pk": "T", "Pv": "T", "Po": "A", "Pm": "A"},
         "F188": {"Pf": "A", "Pk": "T", "Pv": "C", "Po": "A", "Pm": "A"},
-        "F194": {"Pf": "G", "Pk": "A", "Pv": "A", "Po": "A", "Pm": "A"}, 
+        "F194": {"Pf": "G", "Pk": "A", "Pv": "A", "Po": "A", "Pm": "A"},
         "F197": {"Pf": "A", "Pk": "T", "Pv": "T", "Po": "T", "Pm": "T"},
         "F199": {"Pf": "G", "Pk": "A", "Pv": "A", "Po": "A", "Pm": "A"},
         "F276": {"Pf": "T", "Pk": "A", "Pv": "A", "Po": "A", "Pm": "A"},
@@ -61,7 +56,7 @@
         "F358": {"Pf": "T", "Pk": "A", "Pv": "A", "Po": "A", "Pm": "A"},
         "F359": {"Pf": "T", "Pk": "A", "Pv": "A", "Po": "A", "Pm": "A"},
         "F361": {"Pf": "A", "Pk": "C", "Pv": "T", "Po": "C", "Pm": "T"},
-        "F362": {"Pf": "C", "Pk": "T", "Pv": "G", "Po": "G", "Pm": "G"}, 
+        "F362": {"Pf": "C", "Pk": "T", "Pv": "G", "Po": "G", "Pm": "G"},
         "F363": {"Pf": "G", "Pk": "A", "Pv": "A", "Po": "A", "Pm": "A"},
         "F368": {"Pf": "G", "Pk": "A", "Pv": "A", "Po": "A", "Pm": "A"},
         "F384": {"Pf": "G", "Pk": "T", "Pv": "T", "Po": "T", "Pm": "T"},
@@ -73,11 +68,11 @@
         "F461": {"Pf": "C", "Pk": "T", "Pv": "T", "Po": "T", "Pm": "T"},
         "F465": {"Pf": "T", "Pk": "A", "Pv": "A", "Po": "T", "Pm": "A"}},
         "chrom_regex": "^Spec_[12]_(falciparum|vivax)$"},
-    "grc_barcoding": 
-        {"barcode_ref": 
+    "grc_barcoding":
+        {"barcode_ref":
             {"001": {"Chromosome": "PvP01_01_v1", "Locus": 778121, "RefAllele": "T"},
              "002": {"Chromosome": "PvP01_10_v1", "Locus": 1371780, "RefAllele": "C"},
-             "003": {"Chromosome": "PvP01_10_v1", "Locus": 151400, "RefAllele": "T"}, 
+             "003": {"Chromosome": "PvP01_10_v1", "Locus": 151400, "RefAllele": "T"},
              "004": {"Chromosome": "PvP01_10_v1", "Locus": 865053, "RefAllele": "T"},
              "005": {"Chromosome": "PvP01_11_v1", "Locus": 643929, "RefAllele": "C"},
              "006": {"Chromosome": "PvP01_12_v1", "Locus": 1220748, "RefAllele": "C"},
