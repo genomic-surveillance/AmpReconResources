@@ -1,6 +1,6 @@
 # AmpliconResources
 
-This repository contains any auxillary data required to run AmpSeq 
+This repository contains any auxillary data required to run [AmpSeq pipeline](https://gitlab.internal.sanger.ac.uk/malariagen1/ampseq-pipeline.git)
 
 ## Getting started
 
