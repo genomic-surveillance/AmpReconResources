@@ -22,7 +22,7 @@ git clone --recurse-submodules <your repo>
 submodule update --init --recursive
 ```
 
-## Updating this repository
+## Updating this submodule to latest commit on your repository
 Create a new feature branch specifying the module you want to create/update.
 After your work is done, create a pull request vs master.
 Once that's been reviewed and merged, run:
