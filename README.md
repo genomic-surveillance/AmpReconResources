@@ -1,6 +1,6 @@
-# AmpliconResources
+# AmpReconResources
 
-This repository contains any auxillary data required to run [AmpSeq pipeline](https://gitlab.internal.sanger.ac.uk/malariagen1/ampseq-pipeline.git)
+This repository contains any auxillary data required to run [AmpRecon pipeline](https://gitlab.com/malariagen/dae/amprecon)
 
 ## Getting started
 
@@ -8,7 +8,7 @@ To use this submodule in your project use these commands:
 
 ```shell
 # Add the scripts submodule as a folder called "modules"
-git submodule add https://gitlab.internal.sanger.ac.uk/malariagen1/ampliconresources.git
+git submodule add https://gitlab.com/malariagen/dae/ampreconresources.git
 git commit -am "added scripts submodule"
 # push optional at this stage, but definitely necessary after a few commits have been made
 git push
