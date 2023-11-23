@@ -1,2 +1,2 @@
 panel_name,reference_file,design_file,snp_list
-PVIV_GRC_1.0,<ProjectDir>/ampreconresources/plasmodium/vivax/reference/pv_grc1/genome/PVIV_GRC_1.0.fa,<ProjectDir>/ampreconresources/plasmodium/vivax/reference/pv_grc1/design/PVIV_GRC_1.0.amplicon_locations.txt,<ProjectDir>/ampreconresources/plasmodium/vivax/reference/pv_grc1/vcfs/PVIV_GRC_1.0.annotation.vcf
+PVIV_GRC_1.0,<ProjectDir>/ampreconresources/plasmodium/vivax/references/pv_grc1/genome/PVIV_GRC_1.0.fa,<ProjectDir>/ampreconresources/plasmodium/vivax/references/pv_grc1/design/PVIV_GRC_1.0.amplicon_locations.txt,<ProjectDir>/ampreconresources/plasmodium/vivax/references/pv_grc1/vcfs/PVIV_GRC_1.0.annotation.vcf
